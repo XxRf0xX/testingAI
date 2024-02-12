@@ -13,6 +13,9 @@ while True:
     engine = 'text-davinci-003',
     prompt = propmt,
     max_tokens = 2000
+    test = 'testing with edit from github'
+    print(test)
+    
 )
 
     print(complection.choices[0].text)
